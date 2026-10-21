@@ -1,6 +1,6 @@
 # 아라멀티비디오 플레이어
 
-<img src="assets/images/home/readme-preview.png" alt="아라멀티비디오 플레이어 소개" width="600">
+<img src="assets/images/home/readme-preview.jpg" alt="아라멀티비디오 플레이어 소개" width="600">
 
 아라멀티비디오 플레이어는 여러 동영상을 한 화면에서 동시에 재생할 수 있는 플레이어입니다.
 
