@@ -9,8 +9,9 @@
 <link rel="stylesheet" href="assets/css/concepts.css?v=20261021-mac-download">
 <script>
 window.dataLayer=window.dataLayer||[];
-function gtag(){dataLayer.push(arguments)}
-if (location.hostname === 'dalnim.github.io' && location.pathname.startsWith('/multivideoplayer/')) {
+const analyticsEnabled = location.hostname === 'dalnim.github.io' && location.pathname.startsWith('/multivideoplayer/') && new URLSearchParams(location.search).get('analytics') !== 'off';
+function gtag(){if (analyticsEnabled) dataLayer.push(arguments)}
+if (analyticsEnabled) {
  gtag('js',new Date());
  gtag('config','G-CB9BVJJ6HB');
  const script = document.createElement('script');

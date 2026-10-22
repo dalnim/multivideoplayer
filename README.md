@@ -20,6 +20,8 @@
 홈페이지 통계는 Google Analytics의 `DalPlayer (165430540)` 속성에서 확인합니다.
 다운로드 버튼의 주요 이벤트는 `windows_download_click`, `mac_download_click`, `ios_download_click`, `android_download_click`입니다. 버튼 클릭을 측정하며 앱 설치 완료를 의미하지는 않습니다.
 
+개발 중 실제 홈페이지에서 다운로드할 때는 [통계 제외용 홈페이지](https://dalnim.github.io/multivideoplayer/?analytics=off)를 사용합니다. URL에 `analytics=off`가 있으면 Google Analytics 스크립트를 불러오지 않고 방문·클릭 이벤트도 보내지 않습니다. Mac과 Windows에서 이 주소를 북마크해서 사용할 수 있으며, 설정을 브라우저에 저장하지 않으므로 일반 주소로 접속하면 다시 집계됩니다.
+
 외부에 홈페이지를 소개할 때 아래 링크를 사용하면 유입 경로를 구분할 수 있습니다.
 
 | 게시 위치 | 홈페이지 홍보 링크 |
