@@ -1362,8 +1362,12 @@ languageSelect.addEventListener('change', () => {
  updateLanguage();
  try { localStorage.setItem('selectedLanguage', languageSelect.value); } catch {}
 });
-document.querySelectorAll('.windows-link').forEach(link => link.addEventListener('click', () => {
- gtag('event','windows_download_click',{placement:link.closest('.hero') ? 'hero' : 'download'});
+document.querySelectorAll('[data-download-platform]').forEach(link => link.addEventListener('click', () => {
+ gtag('event',link.dataset.downloadPlatform+'_download_click',{
+  download_platform:link.dataset.downloadPlatform,
+  placement:link.closest('.hero') ? 'hero' : 'mobile',
+  link_url:link.href
+ });
 }));
 if (navigator.userAgent.includes('Macintosh') && navigator.maxTouchPoints < 2) {
  const link = document.querySelector('.mac-badge');
