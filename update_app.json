@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.0.0",
-  "downloadUrl": "https://github.com/dalnim/multivideoplayer/releases/download/windows-v1.0.0/AraMultiVideoPlayer-Setup.exe",
-  "sha256": "d605f8fab2f002f3360a30ac1bc0185e5a2254df74fb379ed3861fbd43e3936c",
+  "latestVersion": "1.0.1",
+  "downloadUrl": "https://github.com/dalnim/multivideoplayer/releases/download/windows-v1.0.1-mac-v1.0.8/AraMultiVideoPlayer-Setup.exe",
+  "sha256": "21aeb9261748df7b3b0e3b84042d78c61ad1b4dce1c7e7660ab7045fb09dd25b",
   "releaseNotes": {
-    "en": "",
-    "ko": ""
+    "en": "- Added customizable keyboard shortcuts\n- Added support for reconnecting renamed or moved video files\n- Added the ability to close multiple selected videos at once",
+    "ko": "- 단축키 매핑 기능 추가\n- 이름이나 위치가 변경된 영상 다시 연결 기능 추가\n- 여러 영상을 선택하여 한 번에 닫는 기능 추가"
   }
 }
